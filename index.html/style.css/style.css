@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 main{
     max-width: 1600px; 
     margin: 0px auto;
@@ -103,8 +106,9 @@ width: 320px;
     margin-right:50px ;
    
 }
-.text-mid>h1{
-    
+.text-mid > h1{
+margin-top: 30px;
+margin-bottom: 20px;
 width: 642px;
 height: 150px;
 font-family: Merriweather;
@@ -114,7 +118,9 @@ font-weight: 900;
 line-height: 88px;
 letter-spacing: 7px;
 }
-.text-mid>p{
+.text-mid > p{
+    margin-top: 50px;
+    margin-bottom: 0px;
  width: 697px;
  height: 60px;
 color: rgba(255, 255, 255, 0.80);
@@ -125,7 +131,10 @@ font-weight: 400;
 line-height: 30px; 
 }
 .text-mid>button{
+    margin-top: 30px;
+    margin-bottom: 0px;
     width: 103px;
+    font-size: 18px;
     background-color: #131213;
     color: #FFF;
     border: none;
