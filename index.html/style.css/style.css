@@ -1,0 +1,60 @@
+main{
+    margin-left: 50px;
+}
+.banner{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(photos/Banner\ Image.png);
+    background-size: cov
+    border-radius:16px ;
+    width: 1320px;
+    height: 600px;
+    justify-content: center; 
+    display: flex    
+}
+    .b-text> p{
+        color: #fff;
+        width: 259px;
+        height: 40px;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 140px 230px 1px 490px;
+    }
+.b-text> h1{
+    color: #fff;
+     width: 630px;
+     height: 190px;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 95px; 
+    margin:10px 200px 10px 305px ;  
+}
+.ba-text{
+    text-align: center;
+    margin-top: 50px;
+}
+.ba-text >h2{
+    font-size: 65px;
+    color: red;
+    margin-bottom: 35px;
+}
+.ba-text>p{
+    color: red;
+}
+.ba-text>h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 18px;
+}
+.happy-img > img{ 
+    width:802.9pxpx ;
+    height: 500px;
+}
+.happy-img{
+    display: block;
+    margin-left:299px ;
+    align-items: center;
+}
