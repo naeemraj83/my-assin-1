@@ -3,10 +3,12 @@
     padding: 0px;
 }
 main{
-    max-width: 1600px; 
-    margin: 0px auto;
-    
+    width: 1300px; 
+    height: 5585px;
+    margin: 0px auto;  
 }
+
+
 .banner{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(photos/Banner\ Image.png);
     background-size: cover;
@@ -38,6 +40,7 @@ main{
     line-height: 95px; 
     margin:10px 200px 10px 305px ;  
 }
+
 
 /*  */
 
@@ -270,6 +273,7 @@ padding-right: 0px
 }
 .g-text{
    text-align: left;
+   margin-bottom:20PX ;
 }
 .g-text h4{
     margin-top: 0px;
@@ -300,6 +304,13 @@ font-size: 20px;
     gap: 20px;
     padding: 10px;
 }
+.g-img2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 120px;
+}
 .g-1 :hover{
     border: 15px solid rgb(43, 8, 217);
     border-radius: 30px;
@@ -325,6 +336,110 @@ font-size: 20px;
     border-radius: 30px;
 }
 
-   
+  /*  */ 
 
+ .mail-all{
+    width: 1320px;
+    height: 516px;
+    margin-top: 620px;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgba(255, 0, 0, 0.05);
+    border-radius: 20px;
+    
+ }
+ .mail-img img{
+    margin-top: 48px;
+    margin-bottom: 40px;
+ }
+ .mail-text h2{
+    margin-top: 0px;
+    margin-bottom: 22px;
+    font-size: 48px;
+ }
+ .mail-text p{
+    margin-top: 0px;
+    margin-left: 320px;
+    margin-bottom: 48px;
+    width: 696px;
+    font-size: 20px;
+    text-align: center;
+ }
+ .mail-text input button{
+    margin-bottom: 80px;
+    justify-content: center;
+ }
+ .mail-text input{
+    width: 270px;
+   position: relative;
+    padding: 10px;
+    padding-left: 20px;
+    border: none;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+ }
+ .mail-text button{
+    position: absolute;
+    padding: 10px;
+    padding-right: 20PX;
+    border: none;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    background-color: rgb(249, 2, 2);
+ }
+
+/*  */
+
+.footer-all{
+    margin-top: 120px;
+    background-color: #131213;
+    background-position:center;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 24px;
+}
+/
+.display {
+    display: cover;
+}
+.s-img{
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    
+}
+
+.up-flex{
+    display: flex;
+    justify-content: space-between
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-1{
+    width: 450px;
+ margin-left: 80px;
+ padding-top: 80px;
+ padding-bottom: 60px;
+}
+.right-text{
+padding-right: 290px;
+padding-top: 80px;
+padding-bottom: 30px;
+}
+.d-1{
+    margin-left: 80px;
+    padding-top: 40px;
+}
+.d-2{
+  margin-right: 80px;
+  padding-top: 40px;
+}
+.hr{
+    color: #131213; 
 }
